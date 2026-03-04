@@ -1,0 +1,14 @@
+# Alibaba Cloud region
+region = "cn-hangzhou"
+
+# ECS instance type (will be used to query available zones)
+ecs_instance_type = "ecs.t6-c1m2.large"
+
+# RDS instance type (optional, defaults to mysql.n2.medium.1)
+db_instance_type = "mysql.n2.medium.1"
+
+# Required passwords
+ecs_instance_password = "YourPassword123!"
+db_password           = "YourPassword123!"
+rocketmq_password     = "YourPassword123!"
+app_demo_password     = "YourPassword123!"
